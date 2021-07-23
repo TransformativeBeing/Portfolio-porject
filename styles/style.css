@@ -23,3 +23,7 @@ h3 {
         font-size: 28px;
     }
 }
+
+.email-link:hover {
+    text-decoration: underline !important;
+}
