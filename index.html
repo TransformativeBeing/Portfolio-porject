@@ -15,8 +15,8 @@
 </head>
 
 <body>
-    <div class="shadow" style="background-color: #9161eb0e; padding: 100px 0 0">
-        <nav class="navbar navbar-expand-sm navbar-dark shadow fixed-top" style="background-color: #9161eb">
+    <div class="shadow" style="background-color: var(--accent-color); padding: 100px 0 0">
+        <nav class="navbar navbar-expand-sm navbar-dark shadow fixed-top" style="background-color: var(--branding-color)">
             <div class="container-fluid">
                 <a class="navbar-brand" href="/index.html" target="Homepage">Jessica Nolte</a
           >
@@ -35,7 +35,7 @@
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a
-                  class="nav-link"
+                  class="nav-link active"
                   aria-current="page"
                   href="/index.html"
                   target="Homepage"
@@ -44,7 +44,7 @@
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link active"
+                  class="nav-link"
                   href="/about.html"
                   target="About Jessica Nolte"
                   >About</a
@@ -53,7 +53,15 @@
               <li class="nav-item">
                 <a
                   class="nav-link"
-                  href="/about.html#contact"
+                  href="/work.html"
+                  target="About Jessica Nolte"
+                  >Work</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="/contact.html"
                   target="Contact Jessica Nolte"
                   >Contact</a
                 >
@@ -63,16 +71,19 @@
         </div>
       </nav>
 
-      <h2 class="text-center">👋 Hi I am</h2>
+      <h2 class="text-center" style="font-family: var(--main-font)">Hi I am</h2>
       <h1 class="text-center">Jessica Nolte</h1>
-      <h3 class="text-center">🇺🇸 Front-end developer, based in USA</h3>
+      <h3 class="text-center">Frontend developer, based in USA</h3>
       <div class="d-flex justify-content-center my-4">
         <a
-          href="/about.html#contact "
-          class="btn btn-dark shadow p-3 m-3"
-          style="background-color: #9161eb; border-color: #9161eb"
+          href="/contact.html "
+          class="link btn btn-dark shadow p-3 m-3 mb-4"
+          style="
+            background-color: var(--branding-color);
+            border-color: var(--branding-color);
+          "
           target="Contact Jessica Nolte "
-          >Contact Me</a
+          >Get Started</a
         >
       </div>
     </div>
@@ -83,7 +94,7 @@
             src="/images/weatherApp.jpg "
             alt="Weather App "
             class="img-fluid shadow rounded p-2"
-            style="background-color: #9161eb0e"
+            style="background-color: var(--accent-color)"
           />
         </div>
         <div class="col-md-6 col-12">
@@ -97,15 +108,21 @@
           <div class="d-flex justify-content-center mt-4">
             <a
               href="https://festive-almeida-9e295e.netlify.app/ "
-              class="btn btn-dark shadow p-3 m-2"
-              style="background-color: #9161eb; border-color: #9161eb"
+              class="link btn btn-dark shadow p-3 m-2"
+              style="
+                background-color: var(--branding-color);
+                border-color: var(--branding-color);
+              "
               target="Weather App Page "
               >Launch Weather App</a
             >
             <a
               href="https://github.com/TransformativeBeing/Weather-App "
-              class="btn shadow p-3 m-2"
-              style="color: #9161eb; border-color: #9161eb"
+              class="link-outline btn shadow p-3 m-2"
+              style="
+                color: var(--branding-color);
+                border-color: var(--branding-color);
+              "
               >Weather App Code</a
             >
           </div>
@@ -122,15 +139,21 @@
           <div class="d-flex justify-content-center mt-4">
             <a
               href="https://eloquent-golick-b22cbb.netlify.app/ "
-              class="btn btn-dark shadow p-3 m-2"
-              style="background-color: #9161eb; border-color: #9161eb"
+              class="link btn btn-dark shadow p-3 m-2"
+              style="
+                background-color: var(--branding-color);
+                border-color: var(--branding-color);
+              "
               target="Tea With Your Dragon page "
               >Launch Website App</a
             >
             <a
               href="https://github.com/TransformativeBeing/Tea-With-Your-Dragon "
-              class="btn shadow p-3 m-2"
-              style="color: #9161eb; border-color: #9161eb"
+              class="link-outline btn shadow p-3 m-2"
+              style="
+                color: var(--branding-color);
+                border-color: var(--branding-color);
+              "
               target="Tea With Your Dragon GitHub page "
               >Website App Code</a
             >
@@ -139,9 +162,9 @@
         <div class="col-6 d-none d-md-block">
           <img
             src="/images/websiteApp.jpg "
-            alt="Current weather forecast "
+            alt="Weather Forecast "
             class="img-fluid p-2 shadow rounded"
-            style="background-color: #9161eb0e"
+            style="background-color: var(--accent-color)"
           />
         </div>
       </div>
@@ -149,9 +172,9 @@
         <div class="col-6 d-none d-md-block">
           <img
             src="/images/nerodiversityApp.jpg "
-            alt="Weather App "
+            alt="Nerodiversity Webpage "
             class="img-fluid p-2 shadow rounded"
-            style="background-color: #9161eb0e"
+            style="background-color: var(--accent-color)"
           />
         </div>
         <div class="col-md-6 col-12">
@@ -164,15 +187,21 @@
           <div class="d-flex justify-content-center mt-4">
             <a
               href="https://clever-neumann-4cb8b3.netlify.app/ "
-              class="btn btn-dark shadow p-3 m-2"
-              style="background-color: #9161eb; border-color: #9161eb"
+              class="link btn btn-dark shadow p-3 m-2"
+              style="
+                background-color: var(--branding-color);
+                border-color: var(--branding-color);
+              "
               target="Nerodiversity App "
               >Launch Nerodiversity App</a
             >
             <a
               href="https://github.com/TransformativeBeing/Diversity-project/settings "
-              class="btn shadow p-3 m-2"
-              style="color: #9161eb; border-color: #9161eb"
+              class="link-outline btn shadow p-3 m-2"
+              style="
+                color: var(--branding-color);
+                border-color: var(--branding-color);
+              "
               target="Nerodiversity Github Code "
               >Nerodiversity App's Code</a
             >
@@ -180,14 +209,17 @@
         </div>
       </div>
     </div>
-    <div
-      class="container shadow rounded-3 m-3 p-3"
-      style="background-color: #9161eb0e; min-width: 90%"
-    >
-      <div class="row p-4">
-        <div class="col-6 rounded p-3">
-          <h2>Work Inquiry</h2>
-          <p>Let’s work together and I’ll do my best</p>
+
+    <footer class="container mt-5">
+      <div
+        class="row img-fluid shadow rounded-3 p-2 m-3"
+        style="background-color: var(--accent-color)"
+      >
+        <div class="col-6 d-flex flex-column rounded p-3">
+          <h2 class="text-start align-self-center">Work Inquiry</h2>
+          <p class="text-start align-self-center">
+            Let’s work together and I’ll do my best
+          </p>
         </div>
         <div
           class="
@@ -197,43 +229,75 @@
             justify-content-center
             text-center
           "
-          style="height: 50%"
         >
           <a
             href="mailto:nolte.jessicac@gmail.com"
-            class="btn btn-dark shadow p-3"
-            style="background-color: #9161eb; border-color: #9161eb"
+            class="link btn btn-dark shadow p-3"
+            style="
+              background-color: var(--branding-color);
+              border-color: var(--branding-color);
+            "
             target="Email Jessica Nolte"
             >Let’s talk here</a
           >
         </div>
       </div>
-    </div>
-    <a
-      href="mailto:nolte.jessicac@gmail.com"
-      class="d-flex justify-content-center text-decoration-none email-link"
-      style="color: #9161eb; font-size: 24px"
-      >nolte.jessicac@gmail.com</a
-    >
 
-    <div class="d-flex justify-content-center mt-3 mb-5">
-      <div
-        class="text-center p-2 m-1"
-        style="width: 8%; background-color: #9161eb0e; border-radius: 100%"
-      >
+      <div class="row">
         <a
-          href="#"
-          class="fab fa-twitter text-decoration-none rounded-3 p-2 m-1"
-          style="font-size: 24px; color: #9161eb"
-        ></a>
+          href="mailto:nolte.jessicac@gmail.com"
+          class="col-12 text-center text-decoration-none mt-5 mb-4 email-link"
+          style="color: #000; font-size: 24px"
+          >Nolte.JessicaC@gmail.com</a
+        >
+      </div>
+      <div class="row d-flex justify-content-center mt-2 mb-5">
+        <div
+          class="text-center p-1 m-3"
+          style="
+            width: 60px;
+            background-color: var(--accent-color);
+            border-radius: 100%;
+          "
+        >
+          <a
+            href="https://github.com/TransformativeBeing"
+            class="icon fab fa-github text-decoration-none rounded-3 p-2 m-1"
+            style="font-size: 24px; color: var(--branding-color)"
+            target="Jessica Nolte GitHub Page"
+          ></a>
             </div>
-            <div class="text-center p-2 m-1" style="width: 8%; background-color: #9161eb0e; border-radius: 100%">
-                <a href="#" class="fab fa-facebook-f text-decoration-none p-2 m-1" style="font-size: 24px; color: #9161eb"></a>
+            <div class="text-center p-1 m-3" style="
+            width: 60px;
+            background-color: var(--accent-color);
+            border-radius: 100%;
+          ">
+                <a href="https://www.linkedin.com/in/jessica-nolte-42b67129/" class="
+              icon
+              fab
+              fa-linkedin-in
+              text-decoration-none
+              rounded-3
+              p-2
+              m-1
+            " style="font-size: 24px; color: var(--branding-color)" target="Jessica Nolte LinkedIn Page"></a>
             </div>
-            <div class="text-center p-2 m-1" style="width: 8%; background-color: #9161eb0e; border-radius: 100%">
-                <a href="#" class="fab fa-instagram text-decoration-none p-2 m-1" style="font-size: 24px; color: #9161eb"></a>
+            <div class="text-center p-1 m-3" style="
+            width: 60px;
+            background-color: var(--accent-color);
+            border-radius: 100%;
+          ">
+                <a href="#https://www.instagram.com/nolte.jessica/" class="icon fab fa-instagram text-decoration-none rounded-3 p-2 m-1" style="font-size: 24px; color: var(--branding-color)" target="Jessica Nolte Instagram Page "></a>
+            </div>
+            <div class="text-center p-1 m-3" style="
+            width: 60px;
+            background-color: var(--accent-color);
+            border-radius: 100%;
+          ">
+                <a href="https://twitter.com/TransformBeing " class="icon fab fa-twitter text-decoration-none rounded-3 p-2 m-1" style="font-size: 24px; color: var(--branding-color)" target="Jessica Nolte Twitter Page "></a>
             </div>
     </div>
+    </footer>
 </body>
 
 </html>
