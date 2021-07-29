@@ -3,6 +3,7 @@
     --accent-color: #9161eb0e;
     --main-font: Poppins, arial;
     --heading-font: Playfair Display;
+    --top-margin: 100px;
 }
 
 body {
@@ -56,7 +57,7 @@ h3 {
     text-decoration: underline !important;
 }
 
-.icon:hover {
+.social-icon:hover {
     color: white !important;
     background-color: #9161eb;
     transition: all 200ms ease-in-out;
