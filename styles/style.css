@@ -39,26 +39,65 @@ h3 {
     }
 }
 
-.email-link:hover {
-    color: #9161eb !important;
-    text-decoration: underline !important;
-    transition: all 200ms ease-in-out;
+.navbar-color {
+    background-color: var(--branding-color);
+}
+
+.top-page-margin {
+    margin-top: var(--top-margin);
+}
+
+.img-background {
+    background-color: var(--accent-color);
+}
+
+.link {
+    background-color: var(--branding-color);
+    border-color: var(--branding-color);
 }
 
 .link:hover {
-    color: #9161eb;
-    background-color: white !important;
-    text-decoration: underline !important;
+    color: var(--branding-color);
+    background-color: white;
+    border-color: var(--branding-color);
+    text-decoration: underline;
+}
+
+.link-outline {
+    color: var(--branding-color);
+    border-color: var(--branding-color);
 }
 
 .link-outline:hover {
-    color: white !important;
-    background-color: #9161eb !important;
-    text-decoration: underline !important;
+    color: white;
+    background-color: var(--branding-color);
+    text-decoration: underline;
+}
+
+.email-link {
+    color: #000;
+    font-size: 24px;
+}
+
+.email-link:hover {
+    color: var(--branding-color);
+    text-decoration: underline;
+    transition: all 200ms ease-in-out;
+}
+
+.social-circle {
+    width: 60px;
+    background-color: var(--accent-color);
+    border-radius: 100%;
+}
+
+.social-icon {
+    color: var(--branding-color);
+    font-size: 24px;
 }
 
 .social-icon:hover {
-    color: white !important;
-    background-color: #9161eb;
+    color: white;
+    background-color: var(--branding-color);
     transition: all 200ms ease-in-out;
 }
