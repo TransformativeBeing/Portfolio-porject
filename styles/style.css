@@ -13,31 +13,62 @@ body {
 h1 {
     font-size: 96px;
     font-family: var(--heading-font);
+    font-weight: 900;
 }
 
 h2 {
-    font-size: 48px;
+    font-size: 64px;
     font-family: var(--heading-font);
+    font-weight: 900;
 }
 
 h3 {
+    font-size: 48px;
+    font-family: var(--heading-font);
+    font-weight: 900;
+}
+
+h4 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+h5 {
     font-size: 24px;
+}
+
+h6 {
+    font-size: 18px;
+    font-weight: 600;
 }
 
 p {
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 30px;
 }
 
-@media (max-width: 765px) {
+a {
+    font-size: 16px;
+}
+
+@media (max-width: 1400px) {
+    h2 {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 900px) {
     h1 {
-        font-size: 46px;
+        font-size: 64px;
     }
     h2 {
-        font-size: 28px;
+        font-size: 40px;
     }
     h3 {
-        font-size: 20px;
+        font-size: 36px;
+    }
+    h4 {
+        font-size: 24px;
     }
     p {
         font-size: 14px;
@@ -91,6 +122,10 @@ p {
     color: var(--branding-color);
     text-decoration: underline;
     transition: all 200ms ease-in-out;
+}
+
+.built-with {
+    font-size: 14px;
 }
 
 .social-circle {
