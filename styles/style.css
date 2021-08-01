@@ -10,12 +10,11 @@ body {
     font-family: var(--main-font);
 }
 
-h1 {
+.home-h1 {
     font-size: 96px;
-    font-family: var(--heading-font);
-    font-weight: 900;
 }
 
+h1,
 h2 {
     font-size: 64px;
     font-family: var(--heading-font);
@@ -52,15 +51,17 @@ a {
 }
 
 @media (max-width: 1400px) {
+    h1,
     h2 {
         font-size: 48px;
     }
 }
 
 @media (max-width: 900px) {
-    h1 {
+    .home-h1 {
         font-size: 64px;
     }
+    h1,
     h2 {
         font-size: 40px;
     }
