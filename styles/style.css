@@ -91,6 +91,10 @@ a {
     background-color: var(--accent-color);
 }
 
+.img-background-link:hover {
+    background-color: var(--branding-color);
+}
+
 .link {
     background-color: var(--branding-color);
     border-color: var(--branding-color);
@@ -117,12 +121,22 @@ a {
 .email-link {
     color: #000;
     font-size: 24px;
+    transition: all 200ms ease-in-out;
 }
 
 .email-link:hover {
     color: var(--branding-color);
-    text-decoration: underline;
+    text-decoration: underline !important;
+}
+
+.code-link {
+    text-decoration: none;
     transition: all 200ms ease-in-out;
+}
+
+.code-link:hover {
+    color: var(--branding-color);
+    text-decoration: underline;
 }
 
 .built-with {
@@ -138,10 +152,10 @@ a {
 .social-icon {
     color: var(--branding-color);
     font-size: 24px;
+    transition: all 200ms ease-in-out;
 }
 
 .social-icon:hover {
     color: white;
     background-color: var(--branding-color);
-    transition: all 200ms ease-in-out;
 }
