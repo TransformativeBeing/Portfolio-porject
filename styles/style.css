@@ -129,16 +129,6 @@ a {
     text-decoration: underline !important;
 }
 
-.code-link {
-    text-decoration: none;
-    transition: all 200ms ease-in-out;
-}
-
-.code-link:hover {
-    color: var(--branding-color);
-    text-decoration: underline;
-}
-
 .built-with {
     font-size: 14px;
 }
@@ -158,4 +148,19 @@ a {
 .social-icon:hover {
     color: white;
     background-color: var(--branding-color);
+}
+
+.code-link {
+    text-decoration: none;
+    transition: all 200ms ease-in-out;
+}
+
+.code-link:hover {
+    color: var(--branding-color);
+    text-decoration: underline;
+}
+
+.code-by {
+    font-size: 14px;
+    font-family: monospace;
 }
